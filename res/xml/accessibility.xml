@@ -8,4 +8,5 @@
     android:canRetrieveWindowContent="true"
     android:canRequestFilterKeyEvents="true"
     android:description="@string/serviceDescription"
+    android:packageNames="com.tencent.mobileqq"
     />

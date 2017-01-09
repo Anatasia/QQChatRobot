@@ -18,7 +18,7 @@ import android.util.Log;
  * 2)输出日志到文件中
  */
 public class MyLog {
-	private static String TAG = "MyLog";
+	private final static String TAG = "MyLog";
 	private static char MYLOG_TYPE = 'v';//输入日志类型，日志级别从高到低e->w->i->d->v，v代表输出所有信息
 	private static boolean MYLOG_WRITE_TO_FILE = true;
 	private static String MYLOG_PATH_DIR = Environment.getExternalStorageDirectory().getPath()+"/QQLog/";
