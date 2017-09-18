@@ -4,7 +4,7 @@
     <string name="app_name">QQChatRobot</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="qqtest">qq测试</string>
+    <string name="qqtest">获取QQ群对话流和群描述信息</string>
     <string name="accessibility_service_label">qq自动对话</string>
     <string name="serviceDescription">qq自动对话机器人服务【此服务主要用于QQ自动对话机器人的辅助服务】</string>
 

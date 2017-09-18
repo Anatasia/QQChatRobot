@@ -33,12 +33,19 @@ public class MainActivity extends Activity {
 		
 		//进行qq测试
 		Button qqTestButton = (Button)findViewById(R.id.testQQ);
+		
+		
+		
 		qqTestButton.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				getServiceInstance();
+				//获取服务实例
+				ASService currentServiceInstance = getServiceInstance();
+				if(currentServiceInstance!=null){
+					currentServiceInstance.socialTest();
+				}
 			}
 		});
 	}

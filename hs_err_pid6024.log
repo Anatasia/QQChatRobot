@@ -1,0 +1,121 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=6024, tid=6864
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_79-b15) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.79-b02 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002770800):  JavaThread "Unknown thread" [_thread_in_vm, id=6864, stack(0x0000000002340000,0x0000000002440000)]
+
+Stack: [0x0000000002340000,0x0000000002440000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002770800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=6864, stack(0x0000000002340000,0x0000000002440000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.016 loading class 0x00000000027b49d0 done
+Event: 0.016 loading class 0x00000000027b43d0 done
+Event: 0.016 loading class 0x00000000027b43b0
+Event: 0.016 loading class 0x00000000027bc560
+Event: 0.016 loading class 0x00000000027bc560 done
+Event: 0.016 loading class 0x00000000027bc590
+Event: 0.016 loading class 0x00000000027bc590 done
+Event: 0.016 loading class 0x00000000027bc5c0
+Event: 0.016 loading class 0x00000000027bc5c0 done
+Event: 0.016 loading class 0x00000000027b43b0 done
+
+
+Dynamic libraries:
+0x00007ff6656c0000 - 0x00007ff6656f3000 	E:\adt-bundle-windows-x86_64-20140702\java\jre7\bin\javaw.exe
+0x00007ff9b06c0000 - 0x00007ff9b086d000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ff9b0170000 - 0x00007ff9b02ae000 	C:\Windows\system32\KERNEL32.DLL
+0x00007ff9adaf0000 - 0x00007ff9adc05000 	C:\Windows\system32\KERNELBASE.dll
+0x00007ff9ac3a0000 - 0x00007ff9ac42e000 	C:\Windows\system32\apphelp.dll
+0x00007ff9a90a0000 - 0x00007ff9a90f3000 	C:\Windows\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ff9afea0000 - 0x00007ff9aff4a000 	C:\Windows\system32\msvcrt.dll
+0x00007ff9adc10000 - 0x00007ff9adc3e000 	C:\Windows\system32\SspiCli.dll
+0x00007ff9ae0e0000 - 0x00007ff9ae134000 	C:\Windows\system32\SHLWAPI.dll
+0x00007ff9addb0000 - 0x00007ff9adf27000 	C:\Windows\system32\USER32.dll
+0x00007ff9ae300000 - 0x00007ff9ae494000 	C:\Windows\system32\ole32.dll
+0x00007ff9ae8b0000 - 0x00007ff9afdd9000 	C:\Windows\system32\SHELL32.dll
+0x00007ff9acda0000 - 0x00007ff9acdc1000 	C:\Windows\SYSTEM32\USERENV.dll
+0x00007ff9ae800000 - 0x00007ff9ae8aa000 	C:\Windows\system32\ADVAPI32.dll
+0x00007ff9a8940000 - 0x00007ff9a895e000 	C:\Windows\SYSTEM32\MPR.dll
+0x00007ff9ae500000 - 0x00007ff9ae640000 	C:\Windows\system32\RPCRT4.dll
+0x00007ff9ae080000 - 0x00007ff9ae0d9000 	C:\Windows\SYSTEM32\sechost.dll
+0x00007ff9b0490000 - 0x00007ff9b06a2000 	C:\Windows\SYSTEM32\combase.dll
+0x00007ff9adf30000 - 0x00007ff9ae07b000 	C:\Windows\system32\GDI32.dll
+0x00007ff9ad7e0000 - 0x00007ff9ad7f5000 	C:\Windows\SYSTEM32\profapi.dll
+0x00007ff9aa0a0000 - 0x00007ff9aa152000 	C:\Windows\SYSTEM32\SHCORE.dll
+0x00007ff9ae2a0000 - 0x00007ff9ae2d6000 	C:\Windows\system32\IMM32.DLL
+0x00007ff9ae140000 - 0x00007ff9ae292000 	C:\Windows\system32\MSCTF.dll
+0x00007ff9a9c20000 - 0x00007ff9a9e9b000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.18006_none_623f33d3ecbe86e8\COMCTL32.dll
+0x000000005c0e0000 - 0x000000005c1b2000 	E:\adt-bundle-windows-x86_64-20140702\java\jre7\bin\msvcr100.dll
+0x000000005ab30000 - 0x000000005b305000 	E:\adt-bundle-windows-x86_64-20140702\java\jre7\bin\server\jvm.dll
+0x00007ff9a2ed0000 - 0x00007ff9a2ed9000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ff9a8910000 - 0x00007ff9a8932000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ff9add40000 - 0x00007ff9add47000 	C:\Windows\system32\PSAPI.DLL
+0x00007ff9add50000 - 0x00007ff9addaa000 	C:\Windows\system32\WS2_32.dll
+0x00007ff9a8580000 - 0x00007ff9a85aa000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007ff9aff60000 - 0x00007ff9aff69000 	C:\Windows\system32\NSI.dll
+0x00007ff9adc40000 - 0x00007ff9adc8f000 	C:\Windows\SYSTEM32\cfgmgr32.dll
+0x00007ff9ac5f0000 - 0x00007ff9ac618000 	C:\Windows\SYSTEM32\DEVOBJ.dll
+0x000000005c0d0000 - 0x000000005c0df000 	E:\adt-bundle-windows-x86_64-20140702\java\jre7\bin\verify.dll
+0x000000005c0a0000 - 0x000000005c0c8000 	E:\adt-bundle-windows-x86_64-20140702\java\jre7\bin\java.dll
+0x000000005c080000 - 0x000000005c095000 	E:\adt-bundle-windows-x86_64-20140702\java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=UTF-8 -Xbootclasspath:E:\adt-bundle-windows-x86_64-20140702\sdk\platforms\android-22\android.jar 
+java_command: org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 8774 -testLoaderClass org.eclipse.jdt.internal.junit.runner.junit3.JUnit3TestLoader -loaderpluginname org.eclipse.jdt.junit.runtime -classNames com.anatasia.test.GlobalStringTest
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=E:\adt-bundle-windows-x86_64-20140702\java\jdk1.7.0_79
+CLASSPATH=.;E:\adt-bundle-windows-x86_64-20140702\java\jdk1.7.0_79\lib;E:\adt-bundle-windows-x86_64-20140702\java\jdk1.7.0_79\lib\tools.jar
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;E:\adt-bundle-windows-x86_64-20140702\sdk\platform-tools;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;E:\adt-bundle-windows-x86_64-20140702\java\jdk1.7.0_79\bin;E:\adt-bundle-windows-x86_64-20140702\java\jdk1.7.0_79\jre\bin;E:\python;E:\python\Scripts;E:\android studio\tortoisesvn\bin;E:\orc识别\Tesseract-OCR;;E:\git\Git\cmd;E:\马上6\MaShang6\bin
+USERNAME=XJ
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8.1 , 64 bit Build 9600 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 12538928k(6883760k free), swap 14521392k(4168576k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.79-b02) for windows-amd64 JRE (1.7.0_79-b15), built on Apr 10 2015 12:36:16 by "java_re" with unknown MS VC++:1600
+
+time: Mon Sep 18 21:55:53 2017
+elapsed time: 0 seconds
+
